@@ -1,0 +1,19 @@
+CLIENT
+To download packages/libraries:
+>> cd {path}/bin/client/fyp-frontend
+>> npm install
+
+To start client:
+>> npm start
+
+SERVER
+
+To set up environment for python packages and install:
+1) cd to bin/server/pms where requirements.txt is located
+2) activate your virtualenv
+e.g. source {path to environment}/bin/activate
+3) >> pip install -r {pathto}/bin/server/pms/requirements.txt
+
+To start server:
+>> cd {path}/bin/server/pms
+>> python manage.py runserver
