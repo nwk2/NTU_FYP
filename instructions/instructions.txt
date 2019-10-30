@@ -1,19 +1,26 @@
-CLIENT
-To download packages/libraries:
->> cd {path}/bin/client/fyp-frontend
->> npm install
+# My Final Year Project
 
-To start client:
->> npm start
 
-SERVER
+This repo contains my Final Year Project Product as well as relevant reports and instructions for my project for submission.
 
-To set up environment for python packages and install:
-1) cd to bin/server/pms where requirements.txt is located
-2) activate your virtualenv
-e.g. source {path to environment}/bin/activate
-3) >> pip install -r {pathto}/bin/server/pms/requirements.txt
+The contents are as follows:
+- /bin/client - source code for client
+- /bin/server - source code for server
+- /instructions - instructions to set up environment/software
+- /report - Final Report in PDF format
 
-To start server:
->> cd {path}/bin/server/pms
->> python manage.py runserver
+#### Installation:
+Client
+```sh
+$ cd {path}/bin/client/fyp-frontend
+$ npm install
+$ npm start
+```
+
+Server
+```sh
+$ cd bin/server/pms
+$ //active your virtualenv
+$ pip install -r {path}/bin/server/pms/requirements.txt
+$ python manage.py runserver
+```
